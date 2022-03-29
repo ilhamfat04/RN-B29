@@ -2,7 +2,8 @@ import * as React from "react";
 import { Text, Box } from "native-base";
 
 // Declare route
-export default function DetailSoc({}) {
+export default function DetailSoc({ route }) {
+  // console.log(route);
   return (
     <Box
       safeArea
@@ -14,6 +15,7 @@ export default function DetailSoc({}) {
     >
       <Text fontFamily="body" fontWeight={400} fontStyle="italic" fontSize={30}>
         {/* Implement Params to get Data on previous screen  */}
+        {route.params.value || "Not Found"}
       </Text>
     </Box>
   );

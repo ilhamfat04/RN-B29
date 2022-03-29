@@ -1,0 +1,2 @@
+code listSoc.js
+code detailSoc.js
