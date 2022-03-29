@@ -1,0 +1,10 @@
+npm install @react-navigation/native@6.0.1
+npm install react-native-screens@3.4.0 react-native-safe-area-context@3.2.0
+npm install @react-navigation/stack@6.0.1
+expo install react-native-gesture-handler
+npm install @react-navigation/bottom-tabs@6.0.1
+npm install @expo/vector-icons  => icons.expo.fyi
+
+code container.js
+code app.js
+code hello.js
